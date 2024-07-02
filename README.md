@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum de Darien Ivan Rodriguez Gutierrez</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <section class="presentation section">
+            <div class="overlay"></div>
+            <div class="content">
+                <img src="Imagenes/042c91ed-ddeb-40a8-9370-3f4c3666f247.jpeg" alt="Tu foto">
+                <h2 class="animate__animated animate__fadeInLeft visible">Darien Ivan Rodriguez Gutierrez</h2>
+                <p class="animate__animated animate__fadeInRight visible">Quiero ejercer en el area de ciberseguridad</p>
+            </div>
+        </section>
+        
+
+        <header>
+        </header>
+
+        <section class="profile section">
+            <h2 class="section-title">Perfil Profesional</h2>
+            <p> Soy recien agresado de la preparatoria, tengo experiencia en varios lenguajes de programacion, pero en el lengiaje en el cual me destaco es en python, asi mismo tengo experiencia en sistemas operativos, mas adelante quisiera ejercer como especialista en ciberseguridad </p>
+        </section>
+
+        <section class="experience section">
+            <h2 class="section-title">Experiencia Laboral</h2>
+            <ul>
+                <li>
+                    <h3>Auxuliar De Mecanico - GTDisel</h3>
+                    <span>Junio 2023 - agosto 2023</span>
+                    <p>Auxiliaba a los mecanicos dando piezas o arreglando ciertas partes de camiones</p>
+                </li>
+               
+            </ul>
+        </section>
+
+        <section class="education section">
+            <h2 class="section-title">Educación</h2>
+            <ul>
+                <li>
+                    <h3> Tecnico en programacion - Centro de Bachillerato Tegnologico y de Sevicios 128</h3>
+                    <span>2021 - 2024</span>
+                    <p> Graduado</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h3> Programador Python - Cenaltec</h3>
+                    <span>2023 - 2024</span>
+                    <p> Tengo un certificado en programacion pyrthon por parte de la capacitacion acelerada 'Juvenil'</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h3> Academia de ciberseguridad</h3>
+                    <span>2024 - presente</span>
+                    <p> Estoy cursando un curso de 2 años acerca de ciberseguridad </p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="skills section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <i class="fab fa-python"></i> Python
+                </div>
+                <div class="skill">
+                    <i class="fab fa-html5"></i> HTML
+                </div>
+                <div class="skill">
+                    <i class="fas fa-database"></i> SQL
+                </div>
+                <div class="skill">
+                    <i class="fab fa-linux"></i> Linux
+                </div>
+            </div>
+        </section>
+
+        <section class="languages section">
+            <h2 class="section-title">Idiomas</h2>
+            <div class="languages-container">
+                <div>Español - Nativo</div>
+                <div>Inglés - Tecnico</div>
+            </div>
+        </section>
+
+        <section class="certifications section">
+            <h2 class="section-title">Certificaciones</h2>
+            <ul>
+                <li>
+                    <h3>Certificación OSF</h3>
+                    <span>2024</span>
+                    <p><a href="Certificados/130534-5 (1).pdf" target="_blank">Ver Certificado</a></p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>Certificación Programacion Python</h3>
+                    <span>2024</span>
+                    <p><a href="Certificados/Python.jpg" target="_blank">Ver Certificado</a></p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>Certificación Ingles Tecnico</h3>
+                    <span>2024</span>
+                    <p><a href="Certificados/ingles.jpg" target="_blank">Ver Certificado</a></p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>Diploma Cenaltec</h3>
+                    <span>2024</span>
+                    <p><a href="Certificados/Diploma.jpg" target="_blank">Ver Certificado</a></p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="projects section">
+            <h2 class="section-title">Proyectos</h2>
+            <ul>
+                <li>
+                    <h3> vvv's Protocol </h3>
+                    <p>Descripción: Es una aplicacion movil que escaneaba ip's de una red local, asi tambien mostraba el puerto abierto, vulnerabilidad y en que servicio funccionaba.</p>
+                    <p><a href="https://github.com/Taker-Metal/vvv-s-protocol" target="_blank">Ver Proyecto</a></p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="contact section">
+            <h2 class="section-title">Contacto</h2>
+            <form action="mailto:tuemail@example.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
